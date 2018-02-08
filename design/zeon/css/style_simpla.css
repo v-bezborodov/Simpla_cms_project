@@ -1,0 +1,555 @@
+/*+clearfix {*/
+#back_forward:after, .cart_form:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+#back_forward, .cart_form
+{
+	display: inline-block;
+}
+#back_forward, .cart_form
+{
+/*\*/
+	display: block;
+/**/
+	-height: 1px;
+}
+/*+}*/
+.menu UL LI UL LI UL
+{
+	right: 0;
+	margin-right: -100%;
+	position: absolute;
+	margin-top: -41px;
+	display: block;
+	width: 100%;
+}
+#left .main-sidebar
+{
+	clear: both;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#left .main-sidebar UL.widget-archives LI A
+{
+	float: left;
+	text-align: left;
+}
+A.in_cart
+{
+	color: #f5f5f5 !important;
+}
+.header-middle-account LI.selected A
+{
+	font-weight: bold;
+	color: #E23E5D;
+}
+#back_forward A
+{
+	display: inline-block;
+	max-width: 48%;
+}
+#back_forward A.next_page_link
+{
+	float: right;
+}
+/*[clearfix]*/#back_forward
+{
+}
+.product-one .sel_var SELECT
+{
+	padding: 7px;
+	border: 1px solid #DDDDDD;
+	min-width: 156px;
+}
+.product-price SPAN.old
+{
+	margin-right: 15px;
+	color: #F40505;
+}
+.heigth
+{
+	margin-bottom: 10px;
+}
+.heigth IMG
+{
+	vertical-align: middle !important;
+}
+.social-share
+{
+	width: 116px;
+}
+.header .contact-info
+{
+	margin-bottom: 0px;
+}
+.header .contact-info UL LI
+{
+	display: inline-block;
+	margin-right: 20px;
+}
+.product .product-details
+{
+	background-position: bottom left !important;
+	background-color: #482921 !important;
+}
+.brands H3
+{
+	font-weight: bold;
+	text-align: center;
+	font-size: 14pt;
+}
+.page-numbers A.current
+{
+	color: #E6C58D;
+}
+.products-dropdown UL
+{
+	padding-top: 20px;
+	height: 130px;
+}
+.products-dropdown.open-dropdown UL
+{
+	padding-top: 0px;
+}
+.products-dropdown A.active
+{
+	font-weight: bold;
+	color: #000 !important;
+}
+.products-dropdown A.selected
+{
+	font-weight: bold;
+	color: #000 !important;
+}
+.product-details P
+{
+	margin-top: 10px;
+	margin-bottom: 5px !important;
+	height: 90px;
+	overflow: hidden;
+}
+.product-details H1
+{
+	margin-bottom: 5px !important;
+}
+.image A
+{
+	display: block;
+	height: 100%;
+	line-height: 340px;
+}
+.image
+{
+}
+.product-cover
+{
+	padding-bottom: 3px;
+}
+.image A IMG
+{
+	vertical-align: middle !important;
+}
+.product-price SPAN.pr
+{
+	text-decoration: none;
+}
+.product-cover-hover SPAN.sel_var
+{
+	margin: 15px 0px 0px;
+	padding: 0px !important;
+	background-color: transparent !important;
+}
+.product-cover-hover SPAN.sel_var SELECT
+{
+	padding: 3px 15px;
+}
+#browsed_products
+{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+#browsed_products LI
+{
+	display: block;
+	float: left;
+	overflow: hidden;
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	margin: 0 7px 7px 0;
+	width: 50px;
+	height: 50px;
+}
+#browsed_products LI A
+{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+}
+/*@end — Просмотренные товары
+@group Формы*/
+.form INPUT[type="text"], .form INPUT[type="password"]
+{
+	width: 100%;
+}
+.form
+{
+	width: 400px;
+	margin-bottom: 20px;
+}
+/*[clearfix]*/.cart_form
+{
+	width: 100%;
+}
+.cart_form .button-4
+{
+	float: right;
+}
+.register_form .button-4
+{
+	float: right;
+	margin-top: 20px;
+}
+.form TEXTAREA
+{
+	width: 100%;
+	height: 100px;
+	font-size: 18px;
+}
+.form LABEL
+{
+	display: block;
+	font-size: 14px;
+}
+.form INPUT[type="text"]
+{
+	display: block;
+	margin-bottom: 10px;
+}
+/*@group Комментарии*/
+.comment_list
+{
+	margin-top: 15px;
+	list-style: none;
+}
+.comment_list LI
+{
+	padding-bottom: 15px;
+}
+.comment_header
+{
+	font-size: 18px;
+}
+.comment_header I
+{
+	font-weight: normal;
+	font-style: normal;
+	color: #878787;
+	font-size: 13px;
+}
+/*@end — Комментарии
+@group Форма отправки комментария*/
+.comment_form
+{
+	background-color: #F3F3F3;
+	border: 1px solid #E0E0E0;
+	padding: 20px;
+	margin-top: 20px;
+	width: 90%;
+	overflow: hidden;
+}
+.comment_form H2
+{
+	margin-bottom: 0px;
+}
+.comment_form .comment_textarea
+{
+	width: 100%;
+	height: 100px;
+	font-size: 12px;
+}
+.comment_form LABEL
+{
+	display: block;
+	float: left;
+	width: 100px;
+	font-size: 18px;
+	margin-top: 15px;
+}
+.comment_form .input_name
+{
+	font-size: 16px;
+	width: 250px;
+	margin-top: 15px;
+}
+.comment_form .captcha, .cart_form .captcha
+{
+	float: left;
+	display: block;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.cart_form .captcha
+{
+	margin-top: 0px;
+}
+.comment_form .button, .feedback_form .button, .register_form .button, .login_form .button
+{
+	float: right;
+	display: block;
+	margin-top: 10px;
+	margin-right: 0px;
+}
+/*@end — Форма отправки комментария
+@group Форма отправки обратной связи*/
+.feedback_form
+{
+	background-color: #F3F3F3;
+	border: 1px solid #E0E0E0;
+	padding: 20px;
+	margin-top: 20px;
+	width: 90%;
+	overflow: hidden;
+}
+.input_captcha, .register_form .input_captcha
+{
+	float: left;
+	width: 150px !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 42px;
+}
+.captcha, .register_form .captcha
+{
+	float: left;
+	display: block;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.feedback_form .button_send
+{
+	font-size: 18px;
+	float: right;
+	margin-top: 25px;
+}
+/*@end — Форма отправки комментария
+@group Корзина*/
+#purchases
+{
+	width: 100%;
+	vertical-align: middle !important;
+}
+#purchases TR
+{
+	border-top: 1px solid #D5D5D5;
+	height: 70px !important;
+}
+#purchases TD
+{
+	vertical-align: middle;
+}
+#purchases TH
+{
+	vertical-align: top;
+	padding-top: 10px;
+	font-size: 18px;
+	font-weight: normal;
+}
+#purchases .image2
+{
+	width: 50px;
+	text-align: center !important;
+	height: 50px !important;
+}
+#purchases .image A
+{
+	border: 1px solid #E0E0E0;
+	background-color: #FFFFFF;
+	margin: 0 7px 7px 0;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+}
+#purchases .name
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+}
+#purchases TD.name
+{
+	font-size: 14px;
+}
+#purchases TD .download_attachment
+{
+	white-space: nowrap;
+	color: #3B8500;
+	padding: 5px 10px 7px;
+	background-color: #CCFF72;
+	line-height: 30px;
+}
+#purchases .price
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	white-space: nowrap;
+	text-align: right;
+}
+#purchases TD.price
+{
+	font-size: 14px;
+}
+#purchases .remove
+{
+	padding-left: 15px;
+	text-align: right;
+}
+#purchases .amount
+{
+	font-size: 14px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#purchases .amount SELECT
+{
+	font-size: 12px;
+}
+#purchases .coupon .name
+{
+	font-size: 14px;
+}
+#purchases .coupon .name INPUT.coupon_code
+{
+	width: 200px;
+}
+#purchases .coupon .name INPUT
+{
+	font-size: 16px;
+}
+UL#deliveries
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	padding: 20px 20px 0;
+	list-style: none;
+}
+UL#deliveries LI
+{
+	margin-bottom: 10px;
+}
+UL#deliveries LI DIV.checkbox
+{
+	float: left;
+	margin: 0px 0px 0px -15px;
+}
+UL#deliveries LI H3, UL#deliveries LI .description
+{
+	display: block;
+	margin-left: 25px;
+	margin-bottom: 5px;
+}
+/*@end
+@group Кабинет*/
+#orders_history
+{
+	list-style: none;
+}
+#orders_history LI
+{
+	margin-bottom: 10px;
+}
+#orders_history LI A
+{
+	font-size: 16px;
+}
+/*@end — Кабинет
+@group Детали заказа*/
+TABLE.order_info
+{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #F9F9F9;
+	width: 100%;
+}
+TABLE.order_info TD
+{
+	padding: 10px;
+	border: 1px dotted #E0E0E0;
+	font-size: 14px;
+}
+.checkout_button
+{
+	padding: 10px 20px;
+	border: 1px solid #51A400;
+	background-color: #D3FFA9;
+	color: #2E5E00;
+	font-size: 14px;
+}
+/*@end
+Сообщение с ошибкой*/
+.message_error
+{
+	clear: both;
+	height: 18px;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	overflow: hidden;
+	color: #FF0000;
+	background-color: #FFCACA;
+	border: 1px dotted #FF4545;
+}
+/*@end*/
+.transfer_class
+{
+	z-index: 10000;
+}
+#back-top a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+
+/* иконка стрелки (тег span) */
+#back-top span {
+	width: 108px;
+	height: 108px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url(up-arrow.png) no-repeat center center;
+	/* в скобках указываем путь к иконке */
+
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+
+	/* скругленные углы  */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+}
+#back-top a:hover span {
+	background-color: #777;
+}
